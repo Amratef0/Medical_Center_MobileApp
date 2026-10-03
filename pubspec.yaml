@@ -1,0 +1,38 @@
+name: mcsos_mobile
+description: "MCSOS mobile app - Flutter client for the MCSOS clinic system"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management - Cubit only (no Bloc events)
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Networking
+  dio: ^5.7.0
+
+  # Local storage (save tokens + logged in user)
+  shared_preferences: ^2.3.2
+
+  # Fonts matching the website (Cairo) + nice icons
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # Date formatting (Arabic dates)
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
