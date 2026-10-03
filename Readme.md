@@ -183,7 +183,7 @@ If an endpoint changes in the backend, update only that module's repository file
 
 ---
 
-## 🤖 Android Build Notes
+##  Android Build Notes
 
 Verified on an Android emulator (Pixel 9 Pro) with **JDK 21** and **Gradle 8.14.5**. Newer JDKs (e.g. 25) can break the Gradle/AGP toolchain, so use JDK 17 or 21.
 
